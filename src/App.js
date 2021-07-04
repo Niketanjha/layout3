@@ -8,7 +8,6 @@ class App extends React.Component{
   render(){
     return(
       <div>
-
         <div className="navBar">
           <ul id ="navList">
             <li ><a className="firstElement" href="#">Layout 3</a></li>
@@ -20,16 +19,16 @@ class App extends React.Component{
 
         <div className="middleSpace">
           <div className="firstColumn">
-            <h1 style={{marginBottom:"1%"}}>Blog Post Title</h1>
-            <h2 style={{marginTop:"0%"}}>by <a style={{textDecoration:"none"}} href="#">Test</a></h2>
+            <h1 style={{fontFamily:"sans-serif",fontWeight:"normal" ,marginBottom:"1%",fontSize:"2.7em"}}>Blog Post Title</h1>
+            <h2 style={{marginTop:"0%",fontFamily:"sans-serif",fontWeight:"normal"}}>by <a style={{textDecoration:"none"}} href="#">Test</a></h2>
             <hr style={{width:"100%",border:" solid gray",borderWidth:"0.1px"}}></hr>
-            <span style={{margin:"2% 0% 2% 0%"}}>Posted on August 24, 2013 at 9:00 PM</span>
+            <span style={{fontFamily:"sans-serif",fontSize:"1.2em",margin:"2% 0% 2% 0%"}}>Posted on August 24, 2013 at 9:00 PM</span>
             <hr style={{width:"100%",border:" solid gray",borderWidth:"0.1px"}}></hr>
             <div className="colorBox">
-              <span style={{fontSize:"70px",color:"#969696"}}>900X300</span>
+              <span style={{fontSize:"6em",fontWeight:"bold",fontFamily:"sans-serif" ,color:"#969696"}}>900 x 300</span>
             </div>
             <hr style={{marginTop:"3%",width:"100%",border:" solid gray",borderWidth:"0.1px"}}></hr>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+            <h3 className="firstLorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</h3>
             <span className="loremText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</span>
             <span className="loremText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</span>
             <span className="loremText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</span>
@@ -41,9 +40,11 @@ class App extends React.Component{
           <div className="secondColumn">
             
             <div className="blogSearch">
-              <span>Blog Search</span>
-              <input type="text" style={{width:"60%",height:"22px"}}></input>
-              <button></button>
+              <span style={{fontFamily:"sans-serif",fontSize:"1.3em",paddingLeft:"10%"}} >Blog Search</span>
+              <div className="searchIcon">
+                <input type="text" style={{width:"60%",height:"35px"}}></input>
+                <button type="submit" className="searchButton"><i class="fa fa-search"></i></button>
+              </div>
             </div>
 
             <div className="blogCategories">
