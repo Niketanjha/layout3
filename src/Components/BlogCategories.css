@@ -1,0 +1,23 @@
+.blogCategories{
+    background-color:#F5F5F5;
+    margin-top: 7%;
+    border-radius: 7px;
+    height: 11%;
+    padding:8% 5% 10% 0%;
+  }
+  
+  .blogCatDiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+  }
+  
+  .catColumn1{
+    display: flex;
+    flex-direction: column;
+  }
+  .catColumn2{
+    display: flex;
+    flex-direction: column;
+  }
