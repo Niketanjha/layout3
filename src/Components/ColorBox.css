@@ -1,0 +1,18 @@
+.colorBox{
+    margin-top: 2%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxText{
+    font-size: 4.4em;
+    font-family: sans-serif;
+    color:#969696;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width:640px){
+    .boxText{
+      font-size: 3em;
+    }
+  }

@@ -1,0 +1,10 @@
+.firstLorem{
+  font-size: 1.3em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.loremText{
+    margin-top:3%;
+    font-family: sans-serif;
+    font-size: 1em;
+  }

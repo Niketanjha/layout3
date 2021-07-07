@@ -9,31 +9,6 @@
   flex-direction: column;  
 }
 
-.colorBox{
-  background-color:#CCCCCC;
-  height:35vh;
-  width: 100%;
-  margin-top: 2%;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-.boxText{
-  font-size: 4.4em;
-  font-family: sans-serif;
-  color:#969696;
-  font-weight: bold;
-}
-.firstLorem{
-  font-size: 1.3em;
-  font-family: sans-serif;
-  font-weight: bold;
-}
-.loremText{
-  margin-top:3%;
-  font-family: sans-serif;
-  font-size: 1em;
-}
 
 .copyright{
   margin-top: 5%;
@@ -50,61 +25,6 @@
   margin-left: 3%;
 }
 
-.blogSearch{
-  background-color:#F5F5F5;
-  border-radius: 7px;
-  height: 12%;
-  display: flex;
-  flex-direction: column;
-}
-.searchIcon{
-  display: flex;
-  flex-direction: row;
-  margin-left: 8%;
-}
-.searchButton{
-  float: left;
-  padding: 8px;
-  background:white;
-  color: black;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
-.blogCategories{
-  background-color:#F5F5F5;
-  margin-top: 7%;
-  border-radius: 7px;
-  height: 11%;
-  padding:8% 5% 10% 0%;
-}
-
-.blogCatDiv2{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 2%;
-}
-
-.catColumn1{
-  display: flex;
-  flex-direction: column;
-}
-.catColumn2{
-  display: flex;
-  flex-direction: column;
-}
-
-.sideWidgetWall{
-  margin-top: 8%;
-  background-color:#F5F5F5;
-  padding: 5%;
-  border-radius: 7px;
-}
-
 @media screen and (max-width:900px) {
   .middleSpace{
     display: flex;    
@@ -118,9 +38,9 @@
 }
 
 @media screen and (max-width:640px){
-  .boxText{
+  /* .boxText{
     font-size: 3em;
-  }
+  } */
   .middleSpace{
     display: flex;
     flex-direction: column;
